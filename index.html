@@ -1,1 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdulrahman Wael Nabil — Cybersecurity &amp; Red Team</title>
+<meta name="description" content="Portfolio of Abdulrahman Wael Nabil, cybersecurity student and Red Team trainee specializing in penetration testing.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+<div class="scanline" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand">awn<span class="cursor-blink">_</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">about</a>
+      <a href="#education">education</a>
+      <a href="#certification">certification</a>
+      <a href="#skills">skills</a>
+      <a href="#project">project</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <a class="nav-cv" href="assets/Abdulrahman_Wael_Nabil_CV.pdf" download>download cv</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="hero-kicker">$ cat status.log</p>
+      <h1 class="hero-name">Abdulrahman<br>Wael Nabil</h1>
+      <p class="hero-role" id="typedRole"><span id="typedText"></span><span class="type-cursor">_</span></p>
+      <p class="hero-desc">Information Technology student specializing in Cybersecurity at Hit Academy. Focused on penetration testing, Red Team operations, and web application security — trained through a 60-hour Red Team program and daily practice on TryHackMe.</p>
+      <div class="hero-actions">
+        <a href="assets/Abdulrahman_Wael_Nabil_CV.pdf" download class="btn btn-primary">Download CV</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="hero-meta">
+        <span>Cairo, Egypt</span>
+        <span class="dot">·</span>
+        <span>Seeking Cybersecurity / Pentest internship</span>
+      </div>
+    </div>
+
+    <div class="terminal" id="terminal">
+      <div class="terminal-bar">
+        <div class="terminal-dots"><span></span><span></span><span></span></div>
+        <span class="terminal-title">guest@cairo — zsh</span>
+      </div>
+      <div class="terminal-body" id="terminalBody"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="section-inner about-grid">
+    <div class="section-head">
+      <p class="section-tag">$ cat about.md</p>
+      <h2>About</h2>
+    </div>
+    <div class="about-content">
+      <div class="about-photo">
+        <img src="assets/profile.jpeg" alt="Abdulrahman Wael Nabil presenting a project on AI-assisted resume matching">
+        <div class="about-photo-caption">Presenting an AI resume-matching project</div>
+      </div>
+      <div class="about-text">
+        <p>I'm an Information Technology student at Hit Academy, majoring in Cybersecurity, and currently building toward a career in offensive security. My focus areas are penetration testing, Red Team operations, web application security, and network security.</p>
+        <p>I completed a 60-hour Red Team training program covering the full offensive security lifecycle — from information gathering and enumeration through exploitation, Active Directory attacks, and reporting — and I keep those skills sharp through hands-on labs on TryHackMe.</p>
+        <p>I'm currently looking for a Cybersecurity or Penetration Testing internship where I can apply what I've trained on to real engagements and keep learning from practitioners in the field.</p>
+        <ul class="about-facts">
+          <li><span>Location</span>Cairo, Egypt</li>
+          <li><span>Education</span>Hit Academy — B.Sc. Information Technology, Cybersecurity</li>
+          <li><span>Languages</span>Arabic (Native), English (B2)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION / TIMELINE ============ -->
+<section class="section" id="education">
+  <div class="section-inner">
+    <div class="section-head">
+      <p class="section-tag">$ cat timeline.log</p>
+      <h2>Education &amp; Training</h2>
+    </div>
+    <ol class="timeline">
+      <li class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2025 — Present</span>
+          <h3>Bachelor's Degree in Information Technology, Cybersecurity</h3>
+          <p>Hit Academy</p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Feb 2026 — Jul 2026</span>
+          <h3>Red Team Training — 60 Hours</h3>
+          <p>EDUX Academy · Credential ID Ed00001257</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATION ============ -->
+<section class="section" id="certification">
+  <div class="section-inner">
+    <div class="section-head">
+      <p class="section-tag">$ cat certification.json</p>
+      <h2>Certification</h2>
+    </div>
+    <div class="cert-card">
+      <div class="cert-card-top">
+        <div>
+          <h3>Red Team Training</h3>
+          <p class="cert-issuer">EDUX Academy · 60 Hours · Credential ID Ed00001257</p>
+        </div>
+        <a href="assets/Red_Team_Certificate.pdf" target="_blank" rel="noopener" class="btn btn-outline btn-small">View certificate</a>
+      </div>
+      <p class="cert-desc">Covered the full offensive security lifecycle, from ethical hacking fundamentals through advanced Red Team collaboration and reporting.</p>
+      <ul class="cert-topics">
+        <li>Introduction to Ethical Hacking &amp; Offensive Security</li>
+        <li>Network Fundamentals &amp; Network Penetration Testing</li>
+        <li>Linux Fundamentals</li>
+        <li>Information Gathering &amp; Enumeration</li>
+        <li>Vulnerability Assessment &amp; Exploitation Basics</li>
+        <li>Web Application Penetration Testing</li>
+        <li>Programming &amp; Exploit Development</li>
+        <li>System Hacking &amp; Privilege Escalation</li>
+        <li>Cryptography</li>
+        <li>Metasploit Framework</li>
+        <li>Active Directory Security</li>
+        <li>Cloud Security</li>
+        <li>Social Engineering &amp; Phishing</li>
+        <li>Dark Web Techniques</li>
+        <li>Pivoting &amp; Firewall Evasion</li>
+        <li>Red Team Collaboration</li>
+        <li>Reporting &amp; Documentation</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section" id="skills">
+  <div class="section-inner">
+    <div class="section-head">
+      <p class="section-tag">$ cat skills.yaml</p>
+      <h2>Skills</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-block">
+        <h3>Cybersecurity</h3>
+        <div class="tag-list">
+          <span>Penetration Testing</span>
+          <span>Ethical Hacking</span>
+          <span>Red Teaming</span>
+          <span>Web Application Security</span>
+          <span>Network Security</span>
+          <span>Vulnerability Assessment</span>
+          <span>Information Gathering</span>
+          <span>Enumeration</span>
+          <span>OWASP Top 10</span>
+          <span>Active Directory</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Tools</h3>
+        <div class="tag-list">
+          <span>Kali Linux</span>
+          <span>Burp Suite</span>
+          <span>Nmap</span>
+          <span>Metasploit</span>
+          <span>Wireshark</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Programming</h3>
+        <div class="tag-list">
+          <span>Python</span>
+          <span>Bash</span>
+          <span>SQL</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <h3>Platforms</h3>
+        <div class="tag-list">
+          <span>TryHackMe</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECT ============ -->
+<section class="section" id="project">
+  <div class="section-inner">
+    <div class="section-head">
+      <p class="section-tag">$ ls ./projects</p>
+      <h2>Projects</h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-card-head">
+          <h3>RedMatch</h3>
+          <span class="project-status project-status-live">Live</span>
+        </div>
+        <p class="project-stack">Python · Flask · scikit-learn (TF-IDF / NLP)</p>
+        <p>Matches a CV against a job description and returns an accuracy score, matched skills, and the gaps to close — built for security, SOC, and red team roles.</p>
+        <div class="project-links">
+          <a href="https://arwael.pythonanywhere.com" target="_blank" rel="noopener">Live demo →</a>
+          <a href="https://github.com/wabdulrahman967-png/redmatch-security-cv" target="_blank" rel="noopener">Source →</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-card-head">
+          <h3>Password Security Suite</h3>
+          <span class="project-status project-status-live">Live</span>
+        </div>
+        <p class="project-stack">Python · Streamlit</p>
+        <p>Evaluates password strength with true entropy and breach checks, generates cryptographically secure passwords, and includes a Caesar cipher lab.</p>
+        <div class="project-links">
+          <a href="https://password-security-tool.streamlit.app" target="_blank" rel="noopener">Live demo →</a>
+          <a href="https://github.com/wabdulrahman967-png/password-security-tool" target="_blank" rel="noopener">Source →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT / FOOTER ============ -->
+<footer class="section contact" id="contact">
+  <div class="section-inner">
+    <div class="section-head">
+      <p class="section-tag">$ cat contact.txt</p>
+      <h2>Get in touch</h2>
+    </div>
+    <div class="contact-grid">
+      <a href="mailto:wabdulrahman967@gmail.com" class="contact-item">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">wabdulrahman967@gmail.com</span>
+      </a>
+      <a href="tel:+201000187558" class="contact-item">
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">01000187558</span>
+      </a>
+      <span class="contact-item contact-static">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">Abdulrahman Wael</span>
+      </span>
+      <a href="https://github.com/wabdulrahman967-png" target="_blank" rel="noopener" class="contact-item">
+        <span class="contact-label">GitHub</span>
+        <span class="contact-value">wabdulrahman967-png</span>
+      </a>
+      <a href="https://tryhackme.com/p/wabdulrahman967" target="_blank" rel="noopener" class="contact-item">
+        <span class="contact-label">TryHackMe</span>
+        <span class="contact-value">wabdulrahman967</span>
+      </a>
+      <span class="contact-item contact-static">
+        <span class="contact-label">Location</span>
+        <span class="contact-value">Cairo, Egypt</span>
+      </span>
+    </div>
+    <div class="footer-bottom">
+      <span>Abdulrahman Wael Nabil</span>
+      <span id="year"></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
