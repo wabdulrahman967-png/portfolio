@@ -80,6 +80,7 @@ const terminalScript = [
   { type: 'prompt', text: 'cat role.txt' },
   { type: 'out', text: 'Cybersecurity Student — Hit Academy' },
   { type: 'out', text: 'Red Team Trainee — EDUX Academy (60h)' },
+  { type: 'out', text: 'Cybersecurity Academy Graduate — NTI (60h)' },
   { type: 'gap' },
   { type: 'prompt', text: 'cat focus.txt' },
   { type: 'out', text: 'Penetration Testing' },
